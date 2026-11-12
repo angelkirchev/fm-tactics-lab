@@ -45,6 +45,7 @@ ENGINE_DLL_SHA256 = ENGINE_COMPATIBILITY['actual_dll_sha256']
 EXECUTION_EXPERIMENT_DLLS = {
     '252ff8fb5b7a4a5a5464db6ba632e309eef9b6e65ffa992ae20575a189e66c6a',
     'f79b0a3413dd0e3f461b0afbc3ff397003f4a26d7525a30717428de6a8b91196',
+    '8c6971ce0b1c8afe6529ea3f46205a5175aea988a97d7421a980da42e23fe340',  # 27.0.1 hotfix, .ecode unchanged
 }
 EXECUTION_COMPONENTS = ('understanding', 'buy_in', 'opposition', 'ability')
 CATALOG = json.loads((WEB/'catalog.json').read_text(encoding='utf8'))
